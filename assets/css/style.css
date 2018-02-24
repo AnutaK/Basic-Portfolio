@@ -12,38 +12,17 @@
  }
 
  header {
-  overflow: auto;
-  height: 115px;
-  padding: 0;
-  margin: 0;
-  background-color:white;
-  border-bottom: 3px solid #D5DBDB;
+   overflow: auto;
+   height: 115px;
+   /*display:block;*/
+   padding: 0;
+   margin: 0;
+   background-color:white;
+   color:#fff;
+   border-bottom: 3px solid #D5DBDB;
 
-}
-/*
-
-.text-block {
-
-
-  vertical-align: middle;
-  line-height: 115px;
-/*display: inline;
-*//*width: 300px;
-margin: 0px 0px 0px 200px;
-
-}*/
-
-/*nav {
-display: inline;
- align-items: center;
-*/
-/*padding: 50px;
-list-style: none;
-float:right;
-
-}*/
-
-h1{
+ }
+ h1{
   margin: 0;  
   padding: 40px 0px 20px 40px; 
   font-size: 40px;
@@ -51,15 +30,26 @@ h1{
   font-weight:bold;
 }
 
+.text-block {
+ display: inline;
+ width: 300px;
+ margin: 0px 0px 0px 200px;
+ background-color: #4aaaa5;
+ padding: 50px;
+ font-family: 'Georgia', Times, Times New Roman, serif;  
+/* font-size: 40px;
+*/ font-weight: bold;
+}
+nav {
+  
+ padding: 50px;
+ list-style: none;
+ float:right;
+ align-items: center;
+ display: inline; 
+ 
 
-margin: 0px 0px 0px 200px;
-background-color: #4aaaa5;
-padding: 50px;
-font-family: 'Georgia', Times, Times New Roman, serif;  
-/* font-size: 40px;*/
-/*font-weight: bold*/
-/*}*/
-
+}
 
 footer {
   padding: 0;
