@@ -1,28 +1,21 @@
-/*html, body {
-  height: 100%;
+body {
+  padding: 0;
   margin: 0;
-  }*/
+  background-image: url('eight_horns.png');
+}
 
-  body {
-   padding: 0;
-   margin: 0;
-   background-image: url("eight_horns.png");
+header {
+  overflow: auto;
+  height: 115px;
+  padding: 0;
+  margin: 0;
+  background-color:white;
+  color:#fff;
+  border-bottom: 3px solid #cccccc;
 
+}
 
- }
-
- header {
-   overflow: auto;
-   height: 115px;
-   /*display:block;*/
-   padding: 0;
-   margin: 0;
-   background-color:white;
-   color:#fff;
-   border-bottom: 3px solid #D5DBDB;
-
- }
- h1{
+h1 {
   margin: 0;  
   padding: 40px 0px 20px 40px; 
   font-size: 40px;
@@ -30,64 +23,102 @@
   font-weight:bold;
 }
 
+h2 {
+
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+ul {
+
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 .text-block {
- display: inline;
- width: 300px;
- margin: 0px 0px 0px 200px;
- background-color: #4aaaa5;
- padding: 50px;
- font-family: 'Georgia', Times, Times New Roman, serif;  
-/* font-size: 40px;
-*/ font-weight: bold;
+  display: inline-block;
+  width: 250px;
+  margin: 0px 0px 0px 200px;
+  background-color: #4aaaa5;
+  padding: 45px 45px 45px 45px;
+  font-family: 'Georgia', Times, Times New Roman, serif;  
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
 }
+
 nav {
-  
- padding: 50px;
- list-style: none;
- float:right;
- align-items: center;
- display: inline; 
- 
+  margin: 0;
+  padding: 40px 100px 40px 40px;
+  list-style: none;
+  align-items: center;
+  float: right;
+  display: inline-block; 
+  font-size: 23px;
 
 }
 
+
+a {
+  text-decoration: none;
+  padding: 20px;
+  color: #B2BABB;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+hr {
+  width: 700px;
+  height: 3px;
+  background-color: #B2BABB;
+}
+
+.main-area {
+/*  width: 960px;
+*/  overflow: auto;
+}
+
+.main-section-content {
+  width: 800px;
+  margin: 50px 0px 0px 200px;
+  padding: 0;
+  border: 3px solid #dddddd;
+  display: inline-block;
+}
+
+.social {
+
+  margin: 50px 50px 50px 100px;
+  padding: 20px;
+  float: right;
+  height: 250px;
+  width: 270px;
+  display: inline-block;
+  border: 3px solid #D5DBDB;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;  
+  font-size: 20px;
+  color: #4aaaa5;  
+}
+
+#bio-image {
+  padding: 40px;
+  display: inline-block;
+  float: left;
+}
+
+p {
+  margin: 0;
+  padding: 40px 40px 40px 40px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.6;
+  /*display: inline-block;*/
+
+}
 footer {
   padding: 0;
   margin: 0;
   margin-bottom: -50px;
-}
-
-a {
-
-  text-decoration: none;
-}
-p {
-  margin: 0;
-  padding: 0px 40px 40px 40px;
-
-
-}
-
-.container {
-
-  width: 650px;
-  margin: 50px 0px 0px 200px;
-  padding: 0;
-  border: 3px solid #D5DBDB;
-}
-
-hr {
-  width: 570px;
-
-}
-
-
-.social {
-
-  float: right;
-}
-
-#bio-image {
-
-  padding: 40px;
 }
