@@ -1,0 +1,103 @@
+/*html, body {
+  height: 100%;
+  margin: 0;
+  }*/
+
+  body {
+   padding: 0;
+   margin: 0;
+   background-image: url("eight_horns.png");
+
+
+ }
+
+ header {
+  overflow: auto;
+  height: 115px;
+  padding: 0;
+  margin: 0;
+  background-color:white;
+  border-bottom: 3px solid #D5DBDB;
+
+}
+/*
+
+.text-block {
+
+
+  vertical-align: middle;
+  line-height: 115px;
+/*display: inline;
+*//*width: 300px;
+margin: 0px 0px 0px 200px;
+
+}*/
+
+/*nav {
+display: inline;
+ align-items: center;
+*/
+/*padding: 50px;
+list-style: none;
+float:right;
+
+}*/
+
+h1{
+  margin: 0;  
+  padding: 40px 0px 20px 40px; 
+  font-size: 40px;
+  color: #4aaaa5;     
+  font-weight:bold;
+}
+
+
+margin: 0px 0px 0px 200px;
+background-color: #4aaaa5;
+padding: 50px;
+font-family: 'Georgia', Times, Times New Roman, serif;  
+/* font-size: 40px;*/
+/*font-weight: bold*/
+/*}*/
+
+
+footer {
+  padding: 0;
+  margin: 0;
+  margin-bottom: -50px;
+}
+
+a {
+
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0px 40px 40px 40px;
+
+
+}
+
+.container {
+
+  width: 650px;
+  margin: 50px 0px 0px 200px;
+  padding: 0;
+  border: 3px solid #D5DBDB;
+}
+
+hr {
+  width: 570px;
+
+}
+
+
+.social {
+
+  float: right;
+}
+
+#bio-image {
+
+  padding: 40px;
+}
