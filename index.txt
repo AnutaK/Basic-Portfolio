@@ -48,13 +48,13 @@
 
 			<div class = "social-images">
 				
-					<a href = "https://github.com/AnutaK"><img src="C:/Users/Anna Khardina/Desktop/Berkeley Bootcamp/Basic-Portfolio/assets/images/github.png" width = "80px" height = "80px"></a>
+					<a class  = "social-links" href = "https://github.com/AnutaK"><img src="C:/Users/Anna Khardina/Desktop/Berkeley Bootcamp/Basic-Portfolio/assets/images/github.png" width = "80px" height = "80px"></a>
 				
 
-					<a href = "https://www.linkedin.com/in/anna-khardina-vaisman-a4966531"><img src="C:/Users/Anna Khardina/Desktop/Berkeley Bootcamp/Basic-Portfolio/assets/images/linkedin.png" width = "80px" height = "80px"></a>
+					<a class  = "social-links" href = "https://www.linkedin.com/in/anna-khardina-vaisman-a4966531"><img src="C:/Users/Anna Khardina/Desktop/Berkeley Bootcamp/Basic-Portfolio/assets/images/linkedin.png" width = "80px" height = "80px"></a>
 
 								
-					<a href = "https://stackexchange.com/users/12731791/annak"><img src="C:/Users/Anna Khardina/Desktop/Berkeley Bootcamp/Basic-Portfolio/assets/images/overflow.png" width = "80px" height = "80px"></a>
+					<a class  = "social-links" href = "https://stackexchange.com/users/12731791/annak"><img src="C:/Users/Anna Khardina/Desktop/Berkeley Bootcamp/Basic-Portfolio/assets/images/overflow.png" width = "80px" height = "80px"></a>
 			</div>
 				
 		</div>
