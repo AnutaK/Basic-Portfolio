@@ -1,22 +1,21 @@
 /*html { 
- height: 100%; 
+height: 100%; 
 }*/
 
 body {
-/*  height:100px; 
-*/  width: 100%;
-  padding: 0;
-  margin: 0;
-  background-image: url("../images/eight_horns.png");
+width: 100%;
+padding: 0;
+margin: 0;
+background-image: url("../images/eight_horns.png");
 }
 
 header {
-/*  height: 118px;
-*/  padding: 0;
-  margin: 0;
-  background-color:white;
-  color:#fff;
-  border-bottom: 3px solid #cccccc;
+height: 118px;
+padding: 0;
+margin: 0;
+background-color:white;
+color:#fff;
+border-bottom: 3px solid #cccccc;
 
 }
 
@@ -74,10 +73,10 @@ nav a {
 
 hr {
 
- width: 600px;
- margin: 0 auto;
- background-color: #D5DBDB;
- height: 2px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: #D5DBDB;
+  height: 2px;
 }
 
 .main-area {
@@ -87,27 +86,27 @@ hr {
 }
 
 .main-section-content {
- width: 700px;
- margin: 50px 0px 60px 200px;
- border: 3px solid #dddddd;
- display: inline-block;
- background-color: #ffffff;
+  width: 700px;
+  margin: 50px 0px 60px 200px;
+  border: 3px solid #dddddd;
+  display: inline-block;
+  background-color: #ffffff;
 }
 
 .social {
 
- margin: 50px 130px 0px 0px;
- padding: 20px;
- float: right;
- height: 250px;
- width: 350px;
- display: inline-block;
- border: 3px solid #D5DBDB;
- text-align: center;
- font-family: 'Georgia', Times, Times New Roman, serif;  
- font-size: 20px;
- color: #4aaaa5;  
- background-color: white;
+  margin: 50px 130px 0px 0px;
+  padding: 20px;
+  float: right;
+  height: 250px;
+  width: 350px;
+  display: inline-block;
+  border: 3px solid #D5DBDB;
+  text-align: center;
+  font-family: 'Georgia', Times, Times New Roman, serif;  
+  font-size: 20px;
+  color: #4aaaa5;  
+  background-color: white;
 }
 
 #bio-image {
@@ -153,12 +152,12 @@ hr.social-divider {
 
 
 footer {
-  /*position: fixed;*/
   margin: 0 auto;
+  padding: 40px 0px 40px 0px;
   margin-top: 50px;
   bottom: 0;
   width: 100%;
-  padding: 50px;
+  vertical-align: center;
   text-align: center;
   background-color: #666666;
   color: #c1c1c1;
@@ -174,7 +173,7 @@ h3 {
   background-color: green;
 }
 
-.project {
+.project {  
 
   position: relative;
   float: left;
@@ -204,4 +203,30 @@ h3 {
   width: 100%;
 }
 
+form {
+  margin: 0px 0px 80px 0px;
+}
 
+form p {
+  padding: 0px;
+  margin: 20px 20px 0px 48px;
+
+}
+
+form textarea {
+  padding: 2px;
+  margin: 20px 20px 0px 48px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+
+.submit {
+  padding: 10px 30px;
+  margin: 15px 0px 0px 48px;
+  background-color: #4aaaa5;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
