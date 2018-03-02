@@ -135,6 +135,12 @@ p {
   float: left;
 }
 
+.social_size {
+width: 80px;
+height: 80px;
+
+}
+
 .social-links {
 
   margin: 0;
@@ -172,6 +178,7 @@ h3 {
 
   background-color: green;
 }
+
 
 .project {  
 
